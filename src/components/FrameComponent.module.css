@@ -1,0 +1,267 @@
+.frameChild {
+  height: 85px;
+  width: 1359px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.owner,
+.stellerAutomotive {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.stellerAutomotive {
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+}
+.ownerParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px 0;
+}
+.frameItem {
+  width: 1px;
+  height: 50px;
+  position: relative;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.lineWrapper {
+  height: 50px;
+  width: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chains {
+  white-space: nowrap;
+}
+.chains,
+.garagesFrames {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.chainsParent,
+.garagesFramesWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.garagesFramesWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-lg) 0 var(--padding-mid);
+  color: var(--color-darkslateblue);
+}
+.chainsParent {
+  flex: 0.7937;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 var(--padding-48xl) 0 0;
+  box-sizing: border-box;
+  gap: 9px 0;
+  min-width: 76px;
+}
+.frameInner {
+  width: 1px;
+  height: 50px;
+  position: relative;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.lineContainer {
+  height: 50px;
+  width: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.garages {
+  white-space: nowrap;
+}
+.div,
+.garages {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.garagesParent,
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.wrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  color: var(--color-darkslateblue);
+}
+.garagesParent {
+  flex: 0.9524;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 var(--padding-38xl) 0 0;
+  box-sizing: border-box;
+  gap: 9px 0;
+  min-width: 76px;
+}
+.lineDiv {
+  width: 1px;
+  height: 50px;
+  position: relative;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.lineFrame {
+  height: 50px;
+  width: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.location {
+  white-space: nowrap;
+}
+.italy,
+.location {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.italyWrapper,
+.locationParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.italyWrapper {
+  flex-direction: row;
+  color: var(--color-darkslateblue);
+}
+.locationParent {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-35xl) 0 0;
+  box-sizing: border-box;
+  gap: 9px 0;
+  min-width: 76px;
+}
+.frameChild1,
+.frameDiv {
+  height: 50px;
+  box-sizing: border-box;
+}
+.frameChild1 {
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-gainsboro-100);
+  z-index: 1;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl) 0 0;
+}
+.vectorIcon {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  z-index: 1;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+}
+.groupIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: 1;
+}
+.frameParent,
+.groupWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupWrapper {
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+}
+.frameParent {
+  width: 785px;
+  flex-direction: row;
+  gap: 0 20px;
+  max-width: 100%;
+}
+.ownerGroupFrames,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--color-gainsboro-300);
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-lgi) var(--padding-21xl) var(--padding-base)
+    var(--padding-42xl);
+  gap: var(--gap-xl);
+}
+.ownerGroupFrames {
+  width: 1399px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-7xs);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-200);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1325px) {
+  .rectangleParent {
+    padding-left: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .chainsParent,
+  .garagesParent {
+    flex: 1;
+  }
+}
